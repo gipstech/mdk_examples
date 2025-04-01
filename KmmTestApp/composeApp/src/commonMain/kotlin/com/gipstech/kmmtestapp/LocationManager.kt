@@ -10,8 +10,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 object LocationManager {
-    private const val DEV_KEY = //Your Development Key
-    private const val BUILDING_ID = //Your Building Id
+    private const val DEV_KEY = // Your Development Key
+    private const val BUILDING_ID = // Your Building Id
     private const val UNIVERSAL = true // Set to false for indoor localization
 
     var place: Place? = null
