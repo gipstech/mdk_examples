@@ -1,6 +1,6 @@
-# GiPStech Mobile Development Kit Example Applications
+# GiPStech MDK Example Applications
 
-Here you will find a variety of sample apps demonstrating how to use the GiPStech MDK.
+Here you will find a variety of sample apps demonstrating how to use the GiPStech Mobile Development Kit.
 
 These sample applications are not intended to be compiled or executed as-is, since the GiPStech Development Key has not been provided.
 The key can be requested by contacting GiPStech through the official website: [www.gipstech.com](https://www.gipstech.com).
