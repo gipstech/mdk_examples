@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 
         activityScope.launch {
             try {
-                GiPStech.init("FE041A0609C1BA931AEE066E4C30C3C1", context=this@MainActivity)
+                GiPStech.init(DEV_KEY, context=this@MainActivity)
                 locationMessage.value = "Ready"
                 isButtonEnabled.value = true
             } catch (e: Exception) {
