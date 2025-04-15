@@ -1,4 +1,4 @@
-package com.gipstech.androidtestappp
+package com.gipstech.androidtestapp
 
 import org.junit.Test
 

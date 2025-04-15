@@ -1,4 +1,4 @@
-package com.gipstech.androidtestappp
+package com.gipstech.androidtestapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -20,7 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.gipstech.androidtestappp.ui.theme.AndroidTestApppTheme
+import com.gipstech.androidtestapp.ui.theme.AndroidTestAppTheme
 import com.gipstech.mdk.GiPStech
 import com.gipstech.mdk.LocationSession
 import com.gipstech.mdk.SpatialManager
@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
         PermissionHelper.checkPermissions(this) { allGranted ->
             if (allGranted) {
                 setContent {
-                    AndroidTestApppTheme {
+                    AndroidTestAppTheme {
                         var isRunning by remember { mutableStateOf(false) }
 
                         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->

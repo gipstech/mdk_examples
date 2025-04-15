@@ -1,4 +1,4 @@
-package com.gipstech.androidtestappp.ui.theme
+package com.gipstech.androidtestapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

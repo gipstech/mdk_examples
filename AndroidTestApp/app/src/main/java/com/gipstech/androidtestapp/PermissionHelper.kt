@@ -1,4 +1,4 @@
-package com.gipstech.androidtestappp
+package com.gipstech.androidtestapp
 
 import android.content.Context
 import android.content.pm.PackageManager

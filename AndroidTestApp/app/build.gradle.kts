@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.gipstech.androidtestappp"
+    namespace = "com.gipstech.androidtestapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.gipstech.androidtestappp"
+        applicationId = "com.gipstech.androidtestapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
